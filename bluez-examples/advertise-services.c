@@ -1,7 +1,7 @@
 
 // Advertise-services.c: Example taken from the book "Bluetooth for Programmers"
 // http://stackoverflow.com/questions/22739906/registering-a-sdp-service-with-bluez-on-fedora-20
-
+// http://superuser.com/questions/142288/how-to-configure-linux-to-act-as-a-bluetooth-rfcomm-spp-server
 
 #include <bluetooth/bluetooth.h>
 #include <bluetooth/sdp.h>

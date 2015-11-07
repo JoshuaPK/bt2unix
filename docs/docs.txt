@@ -1,0 +1,5 @@
+
+Be sure to start bluetoothd service.  The code that registers SDP will talk to it.
+
+http://superuser.com/questions/142288/how-to-configure-linux-to-act-as-a-bluetooth-rfcomm-spp-server
+
