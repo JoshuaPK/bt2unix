@@ -75,7 +75,16 @@ int
 main ()
 {
   sdp_session_t *session = register_service ();
+  // We also need to un-register the unneeded services:
+  // sdptool del (handle)
+  // Need to do that programmatically and get all of the handles for
+  // all of the unneeded services.
+  //
 // The rest of the program here
+
+    // After we register the service, we have to make sure the Bluetooth adapter
+    // is visible.
+    // hciconfig hci0 piscan
 
    while(1)
    {
