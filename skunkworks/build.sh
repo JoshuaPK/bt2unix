@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-gcc ./advertise-services.c -o advertise-services -ggdb -lbluetooth
+gcc ./advertise-services.c -o bin/advertise-services -ggdb -lbluetooth
 
